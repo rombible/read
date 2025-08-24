@@ -1,0 +1,65 @@
+BODY {
+	margin: 2px 1px 2px 7px; 
+	overflow-y: hidden;
+	}
+* {
+	font-size:	14px;
+  }
+2.8k Views · View 4  
+SPAN {
+	font-family: Verdana, Arial, Helvetica;
+	font-weight:	normal
+	}
+	
+	.fnreference {font-size: 8pt; vertical-align: super; text-decoration: none;}
+
+LI {
+	font-family: Verdana, Arial, Helvetica;
+	font-weight:	normal
+	}
+
+P {
+	font-family: Verdana, Arial, Helvetica;
+	font-weight:	normal
+	}
+
+	.sectionheading {
+	font-size: 12pt;
+	font-style: normal;
+	text-align : center;
+	font-weight : bold;
+}
+
+	.paragraphtitle { font-size: 12pt; font-style: italic; }
+	.bodytext	{
+	text-indent: 3pt;
+	margin-top: 0;
+	margin : 0px;
+}
+	.footnote	{
+	 font-size: 12pt; 
+	text-indent: 3pt;
+	margin-top: 0;
+	margin : 0px;
+}
+	.center		{
+	text-indent: 3pt;
+	text-align : center;
+	margin : 1em 1em 1em 1em;
+}
+
+	.poetry		{
+	text-indent: 2em;
+	margin-top: 0;
+	margin : 0px;
+}
+	.otpoetry	{ margin-left: 3em; margin-top: 0;margin : 0px;}
+	.title		{ text-align: center; font-weight: bold; font-size: 120% }
+	.sosspeaker	{ font-weight: bold}
+	.smallcaps 	{ font-variant: small-caps }
+	.versenum 	{ font-weight: bold }
+
+P.bibliography  {
+	text-indent: -36pt;
+	padding-left: 36pt;
+	}

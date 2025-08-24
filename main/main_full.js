@@ -1405,7 +1405,7 @@ cMainToolBar.add(cBibleOrWordsButton,'-',
       id: 'bookchapter',
       icon: sImagePath + 'book.png',
       cls: 'x-btn-text-icon save',
-      text:bGlobalLabel?'<b>Books</b>':'',
+      text:bGlobalLabel?'<b>Books</b>':'',            
       //cls: 'x-btn-icon',
       tooltip: 'Select a <b>Book and a chapter</b>'
     },
@@ -1414,7 +1414,8 @@ cMainToolBar.add(cBibleOrWordsButton,'-',
       id: 'readChapter',
       icon: sImagePath + 'play_red.png',
       cls: 'x-btn-text-icon save',
-      text:bGlobalLabel?'Listen':'',
+      //text:bGlobalLabel?'Listen':'',
+      text:'Listen',
       //cls: 'x-btn-icon',
       tooltip: '<b>Listen</b> to the chapter'
     }, '-',     
@@ -1480,15 +1481,22 @@ cMainToolBar.add(cBibleOrWordsButton,'-',
       handler: function(){vSearchBible();},
       id: 'search',
       icon: sImagePath + 'search_book.png',
-      cls: 'x-btn-icon save',
+      //text:bGlobalLabel?'OT Map':'',
+      text:'Bible',       
+      cls: 'x-btn-text-icon save',
+      //cls: 'x-btn-icon save',
       tooltip: '<b>Search</b> Bible (d)'
-    },{
+    },
+    /*
+    {
       handler: function(){vSearchMap();},
       id: 'searchmap',
       icon: sImagePath + 'mpasearch.png',
       cls: 'x-btn-icon save',
       tooltip: '<b>Search</b> Map (m)'
-    },{
+    },
+    */
+    {
       handler: function(){vSearchWord();},
       id: 'searchword',
       icon: sImagePath + 'search.png',

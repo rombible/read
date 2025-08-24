@@ -1,0 +1,431 @@
+BODY {padding: 4px 10px 40px 10px}
+a {
+	font-family: Verdana, Arial, Helvetica;
+	font-weight:	normal
+	font-size:	9pt;
+	text-decoration:none; 
+	padding: 4px;
+  }
+  
+.reftext  {
+	font-family: Verdana, Arial, Helvetica;
+	font-weight:	normal
+	font-size:	9pt;
+	text-decoration:none; 
+	padding: 4px;
+  }
+  
+body{
+	font: 1.2em Arial,sans-serif;	
+}
+  
+#botbox {font-size:11px; padding-bottom:20px; line-height:13px;}
+
+.caption
+{
+    FONT-STYLE: Italic;
+    FONT-weight: Bold;
+    COLOR: #001320;
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+    TEXT-DECORATION: none;
+    TEXT-Align: justify
+}
+
+.vtext
+{
+    COLOR: #001320;
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+    TEXT-DECORATION: none;
+    TEXT-Align: justify
+}
+.btext2
+{
+    COLOR: #001320;
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+    TEXT-DECORATION: none;
+    TEXT-Align: justify
+}
+
+.whiteheading
+{
+    FONT-WEIGHT: Bold;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+    TEXT-DECORATION: none
+    TEXT-Align: center
+}
+.medblue
+{
+    BACKGROUND-COLOR: #0082d9;
+
+}
+.mapbk
+{
+    BACKGROUND-COLOR: #FFFFFF;
+
+}
+.mainbk
+{
+    BACKGROUND-COLOR: #b3e0ff;
+}
+.bluebk
+{
+    BACKGROUND-COLOR: #ffffff;
+}
+.darkbk
+{
+    BACKGROUND-COLOR: #99d6ff;
+}
+.bluebk2
+{
+     BACKGROUND-COLOR: #e8f5ff;
+/*    background-image: url(bk5.gif); */
+     background-repeat: no-repeat; 
+}
+.bluebk3
+{
+    BACKGROUND-COLOR: #f9fdff;
+    background-image: url(lline.gif); 
+     background-repeat: repeat-y;
+    text-align:justify;
+}
+.bluebk3a
+{
+    BACKGROUND-COLOR: #ffffff;
+}
+.bluebk4
+{
+    background-image: url(lline.gif); 
+     background-repeat: repeat-y;
+
+     BACKGROUND-COLOR: #e8f5ff;
+
+}
+.rtbk
+{
+    BACKGROUND-COLOR: #bbe0ff;
+    background-image: url(bk6.gif); 
+}
+.tablebk
+{
+    BACKGROUND-COLOR: #ffffff;
+}
+.chpabk
+{
+
+    BACKGROUND-COLOR: #ffffff;
+
+    background-image: url(chpbk.jpg);
+
+}
+.topbk
+{
+    BACKGROUND-COLOR: #ffffff;
+}
+.ntext
+{
+    TEXT-Align: center; font-weight:700;
+}
+.ntext2
+{
+    TEXT-Align: center; padding-left:80px; padding-right:80px; padding-bottom:9px;
+}
+
+.smalltext
+{
+    FONT-SIZE: 13px;
+    COLOR: #001320;
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+    TEXT-DECORATION: none;
+    TEXT-Align: center;
+}
+.ltext
+{
+    FONT-WEIGHT: 700;
+    FONT-SIZE: 11px;
+    COLOR: #001320;
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+    TEXT-DECORATION: none;   
+    VERTICAL-ALIGN: top;
+}
+.titletext
+{
+    FONT-WEIGHT: 700;
+    COLOR: #552200;
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+    TEXT-DECORATION: none;   
+    VERTICAL-ALIGN: top;
+}
+.crossref
+{
+    FONT-WEIGHT: 700;
+    FONT-SIZE: 11px;
+
+    COLOR: #001320;
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+    TEXT-DECORATION: none;   
+    VERTICAL-ALIGN: top;
+}
+.versiontext
+{
+    FONT-WEIGHT: 500;
+    COLOR: #0066aa;
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+    TEXT-DECORATION: none;   
+    VERTICAL-ALIGN: top;
+}
+.ltext2
+{
+    FONT-WEIGHT: bold;
+    COLOR: #001320;
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+    TEXT-DECORATION: none;    
+    VERTICAL-ALIGN: top;
+    Color: none
+    
+}
+
+
+.redheading
+
+{
+
+
+    FONT-WEIGHT: bold;
+
+    COLOR: #552200;
+
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+
+    TEXT-DECORATION: none
+
+}
+.btext2
+
+{
+
+
+    COLOR: #001320;
+
+
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+
+    TEXT-DECORATION: none
+
+
+    TEXT-Align: justify
+
+}
+.boldtext
+
+{
+
+    FONT-WEIGHT: 700;
+
+    COLOR: #001320;
+
+
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+
+    TEXT-DECORATION: none
+
+    TEXT-Align: justify
+
+}
+
+
+.fnverse2
+{
+    COLOR: #0066aa;
+    FONT-SIZE: 11px;
+    vertical-align: top;
+
+}
+.standardtop
+{
+    margin-top:9px; 
+	text-indent:25px; 
+	margin-bottom:12px;
+    vertical-align: top;
+
+}
+
+
+.mainfootnoteshdg
+{
+    FONT-SIZE: 15px;
+    LINE-HEIGHT:25px;
+    FONT-WEIGHT: bold;
+    COLOR: #0066aa;
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+    TEXT-DECORATION: none
+}
+
+.mainfootnotes
+{
+
+    COLOR: #001320;
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+    TEXT-DECORATION: none
+}
+
+.nivfootnotesbot
+{
+ 
+
+     font-style: italic;
+    font-weight: 700;
+     COLOR: #0066aa;
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+    TEXT-DECORATION: none
+}
+
+.nivfootnote
+{
+    FONT-SIZE: 12px;
+     font-style: italic;
+    font-weight: 700;
+     COLOR: #0066aa;
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+    margin-left:1px;
+    margin-right:1px;
+
+    TEXT-DECORATION: none
+}
+
+.fnverse
+{
+    font-weight: 700;
+    COLOR: #0066aa;
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+    TEXT-DECORATION: none
+}
+
+
+.ref
+{
+    FONT-WEIGHT: bold;
+    COLOR: #0099ff;
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+    TEXT-DECORATION: none
+
+}
+.copyrighttext
+{
+    FONT-SIZE: 9px;
+    LINE-HEIGHT:9px;
+    COLOR: #001320;
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+    TEXT-DECORATION: none
+}
+
+.acrostic
+
+{
+    FONT-SIZE:16px;
+    LINE-HEIGHT:24px;
+    COLOR: #552200;
+    FONT-FAMILY: Ezra SIL, SBL Hebrew, FrankRuehl, David, ALPHABETUM Unicode, Marin, Cardo, Palatino Linotype, Verdana, Arial, Helvetica;
+    font-weight:700;
+    TEXT-DECORATION: none;
+    text-align: center;
+}
+
+.attribution
+
+{
+    FONT-STYLE: italic;
+    text-align: right; padding-top:5px; margin-top:5px;  padding-right:25px;  margin-top:5px; padding-bottom:5px; margin-bottom:5px; 
+}
+.bibletable { width:55%; }nivfoo
+.cellitem3 { text-align:right; padding:3px;}
+.cellitem2 { padding:3px; }
+.cellitem1 {  padding:3px; }
+.embsection { padding-left:25px; padding-right:25px; }
+.emphasis { font-style:normal; }
+.hebrewtitle { font-style:italic; text-align:center; padding-left:20px; padding-right:20px;}
+.psalmhdg { font-weight:700; text-align:center; }
+.outlinelist { padding-left:25px; padding-right:25px; padding-top:0px; padding-bottom:0px; }
+.serieslist { padding-left:25px; padding-right:25px; padding-top:0px; padding-bottom:0px; }
+.item1
+{
+    margin-top:2px;  padding-top:2px;
+	margin-left:25px; margin-right:0px; 
+	text-indent:-25px; 
+	margin-bottom:2px; padding-bottom:2px;
+}
+.item2
+{
+    margin-top:2px;  padding-top:2px;
+	margin-left:50px; margin-right:0px;
+	text-indent:-25px; 
+	margin-bottom:2px; padding-bottom:2px;
+}
+.itemcontinued
+{
+    margin-top:2px;  padding-top:2px;
+	margin-left:25px; margin-right:0px; 
+	text-indent:25px; 
+	margin-bottom:2px; padding-bottom:2px;
+}
+.reg { text-indent:25px; }
+.introduction { text-indent:25px; }
+.setapart { padding-left:25px; padding-right:25px; }
+.pinlinelist { padding-left:25px; padding-right:25px; }
+.opening { text-indent:25px; }
+.emb { padding-left:25px; padding-right:25px; }
+.speech { padding:0px; }
+.pcontinued { margin-left:0px; }
+.maintitle { font-weight:700; font-size: 17px; text-align:center;}
+.secondarytitle { font-style:italic; font-size: 16px; text-align:center; }
+.proverbsmajorsection { font-weight:700; font-size: 16px; text-align:center;}
+.line1 { padding-left:2px; padding-right:25px; padding-top:0px; padding-bottom:0px; margin-top:0px; margin-bottom:0px; }
+.line2 { padding-left:3px; padding-right:25px; padding-top:0px; padding-bottom:0px; margin-top:0px; margin-bottom:0px; }
+.line3 { padding-left:2px; padding-right:25px; padding-top:0px; padding-bottom:0px; margin-top:0px; margin-bottom:0px; }
+.stanza { padding-top:0px; padding-bottom:0px; }
+.embstanza { padding-top:8px; padding-bottom:8px; }
+.sectionhead { font-weight:700; }
+.minorsectionhead { 
+	font-style:italic; 
+    FONT-SIZE: 20px;
+    FONT-WEIGHT: bold;	
+	}
+.variantsectionhead { text-align:center; padding-left:25px; padding-right:25px; }
+.doxology { text-align:center; padding-left:25px; padding-right:25px; padding-top:1px; padding-bottom:1px; margin-top:1px; margin-bottom:1px;}
+.pconclusion { padding-left:25px; padding-right:25px; }
+.speaker { font-style:italic; }
+.foreign { font-style:italic; }
+.refrain { font-style:italic; text-align:right; padding-top:5px; margin-top:5px;  padding-right:25px;  margin-top:5px; padding-bottom:5px; margin-bottom:5px; }
+.red { COLOR: #A80000; }
+.name
+{
+    font-variant: small-caps; 
+}
+.inscription
+{
+    text-transform:uppercase; font-size:13px; text-align:center; padding-left:25px; padding-right:25px; padding-top:1px; padding-bottom:1px; margin-top:1px; margin-bottom:1px;
+}
+.parallelpassage
+{
+    FONT-SIZE: 12px; font-style:italic; text-align:center;
+}
+.reftext
+{
+    FONT-SIZE: 16px;
+    COLOR: #001320;
+    LINE-HEIGHT: 15px;
+    margin-left:1px;    margin-right:2px;
+    vertical-align: text-top;
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+}
+.fnref
+{
+    FONT-SIZE: 11px;
+    COLOR: #001320;
+    LINE-HEIGHT: 14px;
+    margin-right:2px;
+    vertical-align: text-top;
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+}
+.botlink
+{ font-weight:700;}

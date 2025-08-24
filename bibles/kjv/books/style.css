@@ -1,0 +1,43 @@
+* {
+	font-family: Verdana, Arial, Helvetica;
+	font-weight:	normal
+	font-size:	10pt;
+  }
+
+body {
+	font-family: Verdana, Arial, Helvetica;
+	font-weight:	normal
+	font-size:	10pt;
+	background-color: black !important;color: white !important;
+  }
+  
+a {
+	font-family: Verdana, Arial, Helvetica;
+	font-weight:	normal
+	text-decoration:none; 
+	font-size:	10pt;
+  }
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}  
+.maintable2 {font-size:10pt;}
+  
+  .padleft   {font-size:10pt;}
+  .vheading  {font-size:10pt;}
+  .toptitle2 {font-size:10pt;font-weight:bold;}
+  .tophdg    {font-size:10pt;}
+  .hebrew    {font-size:10pt;}
+  .vheading2 {font-size:10pt;font-weight:bold;}
+  .hdg       {font-size:10pt;font-weight:bold;}
+  .smalltext {font-size:10pt;}
+  .padcent   {font-size:10pt;}
+  .hebrew3   {font-size:10pt;}
+  .itali     {font-size:10pt;font-style:  italic;}
+  
+  
+html {background-color: black !important;color: white !important;}
+a { color: white; !important}
+a:visited {color: white !important}
+  
