@@ -1,0 +1,1 @@
+var cSettings = {"book":22,"chapter":24,"verse":1,"scroll":0,"bible":"kjv","wbible":"kjv","fbook":22,"fchapter":24,"fbible":"kjv","fwbible":"kjv","wbook":22,"wchapter":40,"words":3,"read":false,"history":[[22,24],[18,4],[0,0]],"whistory":[[22,40],[0,0]],"audioBible":"niv"}
