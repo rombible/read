@@ -1434,7 +1434,7 @@ cMainToolBar.add(cBibleOrWordsButton,'-',
       icon: sImagePath + 'forward.png',
       cls: 'x-btn-text-icon save',
       //text:bGlobalLabel?'Next':'',
-		 text:'Next',
+      text:'Next',
       //cls: 'x-btn-icon',
       tooltip: '<b>Next</b> chapter'
     }, '-', {
@@ -1657,7 +1657,8 @@ cMainToolBar.add('->',
       text:bGlobalLabel?'NT Map':'',
       //cls: 'x-btn-icon',
       tooltip: '<b>New testament Map</b>'
-    },'-',    
+    },
+    '-',    
     {
       handler: function(){vOpenInfo("Kings", "../info/kings.jpg")},
       id: 'kingsinfo',
@@ -1666,7 +1667,8 @@ cMainToolBar.add('->',
       text:bGlobalLabel?'Kings':'',
       //cls: 'x-btn-icon',
       tooltip: '<b>Kings and prophets</b> '
-    },'-',    
+    },
+    //'-',    
     {
       handler: function(){vOpenInfo("TimeLine", "../info/timeline.html")},
       id: 'timelineinfo',
@@ -1675,7 +1677,8 @@ cMainToolBar.add('->',
       text:bGlobalLabel?'Timeline':'',
       //cls: 'x-btn-icon',
       tooltip: '<b>TimeLine</b> '
-    },'-', 	           
+    },
+    //'-', 	           
     {
       handler: function(){vOpenInfo("Temple", "../info/temple.html")},
       id: 'templeinfo',
@@ -1684,7 +1687,8 @@ cMainToolBar.add('->',
       text:bGlobalLabel?'Temple':'',
       //cls: 'x-btn-icon',
       tooltip: '<b>Temple</b>'
-    },'-',
+    },
+    //'-',
     {
       handler: function(){vOpenInfo("Festivals", "../info/festivals.html")},
       id: 'festivalsinfo',
@@ -1702,7 +1706,9 @@ cMainToolBar.add('->',
       text:bGlobalLabel?'Offerings':'',
       //cls: 'x-btn-icon',
       tooltip: '<b>Offerings</b>'
-    }, '-', ' ', {
+    }, 
+    //'-', ' ', 
+    {
 					handler: function(){
 						 	url = "../notes/notes/" + (iBookIndex+1) + "/";
 						 	sTitle = "<b>Introduction</b> - " + saBookName[iBookIndex];
@@ -1714,7 +1720,9 @@ cMainToolBar.add('->',
 					      text:bGlobalLabel?'<b>Intro</b>':'',
 					      //cls: 'x-btn-icon',
 					      tooltip: 'Book <b>Introduction & Summary</b>'
-					    }, '-', ' ', 
+					    }, 
+	'-', 
+	//' ', 
 	{
       handler: vSetDefault,
       id: 'save',
@@ -3943,6 +3951,5 @@ eventer(messageEvent,function(event)
 	
 		  
 },false);
-
 
 
