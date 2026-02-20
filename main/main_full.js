@@ -1433,8 +1433,7 @@ cMainToolBar.add(cBibleOrWordsButton,'-',
       id: 'nextchapter',
       icon: sImagePath + 'forward.png',
       cls: 'x-btn-text-icon save',
-      //text:bGlobalLabel?'Next':'',
-		 
+      //text:bGlobalLabel?'Next':'',		 
       text:'Next',
       //cls: 'x-btn-icon',
       tooltip: '<b>Next</b> chapter'
@@ -3952,6 +3951,7 @@ eventer(messageEvent,function(event)
 	
 		  
 },false);
+
 
 
 
